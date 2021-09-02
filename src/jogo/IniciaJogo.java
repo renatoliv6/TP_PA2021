@@ -36,11 +36,6 @@ public class IniciaJogo extends Application {
         primaryStage.setOnCloseRequest(ev -> Platform.exit());
         primaryStage.show();
 
-        //createAdditionalStage(model, primaryStage);
-        /*createTextInfoStage(model, primaryStage);
-        createTextInfoScrollStage(model, primaryStage);
-        createTextInfoListViewStage(model, primaryStage);*/
-
     }
 
     public static void main(String[] args) {
